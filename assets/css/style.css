@@ -809,7 +809,9 @@ section {
   }
 }
 
-@media (max-width: 991px) and (max-width: 768px) {
+
+
+@media (max-width: 768px) {
   .what-people-say-item {
     border-radius: 7px;
     padding: 10px;
@@ -834,6 +836,7 @@ section {
 }
 
 .book-section {
+  position: relative;
   background: linear-gradient(35deg, rgba(35,141,219,1) 0%, rgba(29,62,93,1) 100%);
   border-radius: 20px;
   padding: 40px;
@@ -857,15 +860,15 @@ section {
 }
 .niching-container {
   position: relative;
-  margin: 40px auto;
+  margin: 60px auto;
 }
 .book-img {
   position: absolute;
   right: 0;
-  bottom: -43px;
+  bottom: -50px;
 }
 .book-img img {
-  max-width: 70%;
+  max-width: 300px;
 }
 
 @media (max-width: 1200px) {
@@ -886,8 +889,14 @@ section {
     right: 15px;
     bottom: -34px;
   }
+  .niching-btn {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 992px) {
   .book-img img {
-    max-width: 105%;
+    width: 118%;
   }
 }
 
@@ -930,11 +939,11 @@ section {
   }
   .book-img {
     position: absolute;
-    right: 30px;
-    bottom: -23px;
+    right: 8px;
+    bottom: -13px;
   }
   .book-img img {
-    max-width: 125%;
+    width: 107px;
   }
 }
 
