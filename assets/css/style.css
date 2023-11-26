@@ -880,8 +880,15 @@ section.engagments {
 .niching-btn:hover {
   color: rgb(29,62,93);
 }
+section.niching {
+  padding: 0;
+}
 .niching-container {
+  text-align: center;
   position: relative;
+}
+.niching-container img {
+  width: 100%;
 }
 .book-img {
   position: absolute;
@@ -950,7 +957,8 @@ section.engagments {
   }
   .niching-container {
     position: relative;
-    margin: 10px auto;
+    /* margin: 10px auto; */
+    
   }
   .col-8 {
     width: 56.6%;
