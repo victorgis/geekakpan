@@ -736,7 +736,7 @@ section {
   }
 }
 
-.engagments {
+section.engagments {
   background: #fff;
 }
 
@@ -811,6 +811,9 @@ section {
 }
 
 @media (max-width: 1200px) {
+  section.engagments {
+    padding-bottom: 0;
+  }
   .what-people-say-item {
     border-radius: 10px;
     padding: 20px;
@@ -879,7 +882,6 @@ section {
 }
 .niching-container {
   position: relative;
-  margin: 60px auto;
 }
 .book-img {
   position: absolute;
