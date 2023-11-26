@@ -158,14 +158,6 @@ h6 {
   #header .logo {
     font-size: 28px;
   }
-  #header .logo img {
-    width: 100%;
-    image-rendering: optimizeQuality; /* Modern browsers */
-    image-rendering: -webkit-optimize-contrast; /* WebKit (Safari/Chrome) */
-    image-rendering: -moz-crisp-edges; /* Mozilla Firefox */
-    image-rendering: -o-crisp-edges; /* Opera */
-    -ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
-  }
 }
 
 /*--------------------------------------------------------------
@@ -736,7 +728,7 @@ section {
   }
 }
 
-section.engagments {
+.engagments {
   background: #fff;
 }
 
@@ -811,9 +803,6 @@ section.engagments {
 }
 
 @media (max-width: 1200px) {
-  /* section.engagments {
-    padding-bottom: 0;
-  } */
   .what-people-say-item {
     border-radius: 10px;
     padding: 20px;
@@ -834,9 +823,6 @@ section.engagments {
 
 
 @media (max-width: 768px) {
-  section.engagments {
-    padding-bottom: 0;
-  }
   .what-people-say-item {
     border-radius: 7px;
     padding: 10px;
@@ -865,16 +851,12 @@ section.engagments {
   background: linear-gradient(35deg, rgba(35,141,219,1) 0%, rgba(29,62,93,1) 100%);
   border-radius: 20px;
   padding: 40px;
-  margin: 0 140px;
+  margin: 0 100px;
   color: #fff;
 }
 .niching-h4 {
   font-size: 55px;
   font-weight: 700;
-}
-.niching-p {
-  margin-right: 100px;
-  font-size: 20px;
 }
 .niching-btn {
   background-color: #fff;
@@ -889,33 +871,40 @@ section.engagments {
 }
 .niching-container {
   position: relative;
+  margin: 60px auto;
 }
 .book-img {
   position: absolute;
   right: 0;
-  bottom: -40px;
+  bottom: -50px;
 }
 .book-img img {
-  max-width: 300px;
+  width: 300px;
 }
 
 @media (max-width: 1200px) {
-
+  .niching {
+    padding: 30px 0;
+  }
   .book-section {
     border-radius: 10px;
     padding: 15px;
     margin: 0px;
   }
   .niching-h4 {
+    font-size: 35px;
     font-weight: 700;
+  }
+  .niching-p {
+    width: 50%;
   }
   .book-img {
     position: absolute;
-    right: 20px;
-    bottom: -48px;
+    right: -460px;
+    bottom: -27px;
   }
-  .book-img img {
-    max-width: 370px;
+  .book-img img{
+    max-width: 33%;
   }
   .niching-btn {
     margin-top: 30px;
@@ -923,22 +912,8 @@ section.engagments {
 }
 
 @media screen and (max-width: 992px) {
-  .book-img {
-    /* position: absolute;
-    left: 150px;
-    bottom: -20px; */
-  }
   .book-img img {
-    width: 130px;
-    position: absolute;
-    left: 36px;
-    bottom: 1px;
-  }
-  .niching-p {
-    margin-right: 13px;
-  }
-  .book-section {
-    margin: 0 100px;
+    width: 118%;
   }
 }
 
@@ -949,20 +924,21 @@ section.engagments {
   .book-section {
     border-radius: 5px;
     padding: 0 10px;
-    margin: 0 20px;
+    margin: 5px;
   }
   .book-details {
     padding: 10px 0;
-    width: 50%;
+    /* width: 50%; */
   }
   .book-details h4{
-    font-size: 10px;
+    font-size:10px;
   }
   .book-details p{
-    font-size: 9px;
+    font-size:7px;
+
   }
   h4.niching-h4 {
-    font-size: 18px;
+    font-size: 17px;
   }
   .niching-btn {
     font-size: 6px;
@@ -974,22 +950,19 @@ section.engagments {
     position: relative;
     margin: 10px auto;
   }
-  /* .col-8 {
+  .col-8 {
     width: 56.6%;
   }
   .col-4 {
     width: 33.3%;
-  } */
+  }
   .book-img {
-    /* position: absolute;
-    left: 130px;
-    bottom: -28px; */
+    position: absolute;
+    right: -230px;
+    bottom: -13px;
   }
   .book-img img {
-    width: 130px;
-    position: absolute;
-    left: 233px;
-    bottom: 28px;
+    /* width: 107px; */
   }
 }
 
@@ -1140,7 +1113,7 @@ p.library-details {
   }
 
   .library-btn {
-    /* width: 100px; */
+    width: 100px;
     margin: 0 auto;
   }
 }
@@ -1156,7 +1129,7 @@ p.library-details {
   }
 
   .library-btn {
-    /* width: 100px; */
+    width: 100px;
     margin: 0 auto;
   }
   .library-heading {
