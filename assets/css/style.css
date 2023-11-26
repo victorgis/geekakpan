@@ -158,6 +158,10 @@ h6 {
   #header .logo {
     font-size: 28px;
   }
+  #header .logo img {
+    max-height: 100%;
+    max-width: 100%;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1080,7 +1084,7 @@ p.library-details {
 .library-btn {
   color: #fff;
   background-color: #238DDB;
-  width: 100px;
+  width: 150px;
   text-align: center;
   padding: 7px 11px;
   border-radius: 5px;
@@ -1105,7 +1109,7 @@ p.library-details {
   }
 
   .library-btn {
-    width: 100px;
+    /* width: 100px; */
     margin: 0 auto;
   }
 }
@@ -1121,7 +1125,7 @@ p.library-details {
   }
 
   .library-btn {
-    width: 100px;
+    /* width: 100px; */
     margin: 0 auto;
   }
   .library-heading {
