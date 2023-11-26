@@ -159,8 +159,12 @@ h6 {
     font-size: 28px;
   }
   #header .logo img {
-    max-height: 100%;
-    max-width: 100%;
+    width: 100%;
+    image-rendering: optimizeQuality; /* Modern browsers */
+    image-rendering: -webkit-optimize-contrast; /* WebKit (Safari/Chrome) */
+    image-rendering: -moz-crisp-edges; /* Mozilla Firefox */
+    image-rendering: -o-crisp-edges; /* Opera */
+    -ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
   }
 }
 
