@@ -1095,7 +1095,7 @@ p.library-details {
   }
 
   .library-btn {
-    width: 100px;
+    width: 150px;
     margin: 0 auto;
   }
 }
@@ -1110,10 +1110,7 @@ p.library-details {
     display: block;
   }
 
-  .library-btn {
-    width: 100px;
-    margin: 0 auto;
-  }
+
   .library-heading {
     display: block;
     text-align: center;
