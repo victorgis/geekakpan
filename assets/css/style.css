@@ -885,18 +885,15 @@ section {
   transform: translate(0%, -50%)
 }
 
-@media (max-width: 1200px) {
+@media only screen and (max-width: 992px) {
   .book-section {
+    display: block;
     border-radius: 10px;
     padding: 20px;
-    margin: 0 50px;
+    margin: 0 70px;
   }
   .book-details {
-    width: 87%;
-  }
-  .book-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
+    width: 40%;
   }
   .niching-details-h4 {
     font-size: 18px;
@@ -905,62 +902,34 @@ section {
     font-size: 38px;
   }
   .niching-p {
-    font-size: 14px;
-  }
-  .niching-btn {
-    background-color: #fff;
-    width: 150px;
-    text-align: center;
-    border-radius: 5px;
-    padding: 7px 12px;
-    margin-top: 30px;
-  }
-  .book-details {
-    width: 77%;
-  }
-  .book-img img{
-    width: 290px;
-  }
-}
-
-@media (max-width: 992px) {
-  .book-section {
-    border-radius: 10px;
-    padding: 10px;
-    margin: 0 10px;
-  }
-  .book-details {
-    width: 40%;
-  }
-  .book-section {
-    display: block;
-  }
-  .niching-details-h4 {
-    font-size: 14px;
-  }
-  .niching-h4 {
-    font-size: 38px;
-  }
-  .niching-p {
-    font-size: 12px;
+    font-size: 15px;
   }
 
   .book-img {
     position: absolute;
   }
   .book-img img{
-    width: 190px;
+    width: 300px;
   }
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .book-section {
     border-radius: 10px;
     padding: 10px;
     margin: 0 10px;
   }
   .book-details {
-    width: 40%;
+    width: 50%;
+  }
+  .niching-details-h4 {
+    font-size: 15px;
+  }
+  .niching-h4 {
+    font-size: 30px;
+  }
+  .niching-p {
+    font-size: 14px;
   }
   .book-section {
     display: block;
@@ -974,7 +943,7 @@ section {
     border-radius: 5px;
     padding: 6px;
     font-size: 12px;
-    /* margin-top: 30px; */
+    margin-top: 30px;
   }
 }
 
